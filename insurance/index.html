@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        h1 { text-align: center; padding: 23px; background-color: rgb(4, 0, 58); color: white; }
+        #clear{ width: 270px; border: 3px solid gray; border-radius: 3px; padding: 20px; background-color: red; }
+        .formstyle { width: 300px; hight: 530px; margin: auto; border: 3px solid sky blue; border-radius: 5px; padding: 20px; }
+        input { width: 20px; background-color: green; color: white; border: 3px solid gray; border-radius: 5px; padding: 20px; margin: 5px; front-size: 15px;}
+        #calc{ width: 250px; border: 5px solid black; border-radius: 3px; padding: 20px; margin: auto; }
+        h2 {
+             text-align: center; font-style: italic;
+            }
+            img {
+                align-items: center;
+            }
+            body {
+            background-image: url('Nature.jpeg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100%;
+
+        }
+             </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="indexstyle.css">
+
+</head>
+<body>
+    <h1>DUTTA CONSULTANCY</h1>
+    <img src="Mf1.jpeg" width="250" alt="Mf1"><img src="reliance-health-insurance-logo.png" width="250" alt="RHI"><br><img src="fin1.jpg" width="500" alt="FINANCIAL"><br>
+<div class="container">
+<img src="wp2446261.webp" width="700px">
+<h1 id="current-time"></h1>
+<div class="quotes">
+    <p>Today's Quotes</p>
+    <h2>Lost time is never found again.</h2>
+</div>
+
+</div>
+<h2>CALCULATOR</h2>
+    <div class="formstyle">
+        <form name="form1">
+
+            <!-- This input box shows the button pressed by the user in calculator. -->
+            <input id="calc" type="text" name="answer"> <br> <br>
+            <!-- Display the calculator button on the screen. -->
+            <!-- onclick() function display the number prsses by the user. -->
+        <input type="button" value="7" onclick="form1.answer.value += '7' ">
+        <input type="button" value="8" onclick="form1.answer.value += '8' ">
+        <input type="button" value="9" onclick="form1.answer.value += '9' ">
+        <input type="button" value="x" onclick="form1.answer.value += '*' ">
+            <br> <br>
+        <input type="button" value="4" onclick="form1.answer.value += '4' ">
+        <input type="button" value="5" onclick="form1.answer.value += '5' ">
+        <input type="button" value="6" onclick="form1.answer.value += '6' ">
+        <input type="button" value="-" onclick="form1.answer.value += '-' ">
+            <br> <br>
+        <input type="button" value="1" onclick="form1.answer.value += '1' ">
+        <input type="button" value="2" onclick="form1.answer.value += '2' ">
+        <input type="button" value="3" onclick="form1.answer.value += '3' ">
+        <input type="button" value="+" onclick="form1.answer.value += '+' ">
+            <br> <br>
+        <input type="button" value="/" onclick="form1.answer.value += '/' ">
+        <input type="button" value="0" onclick="form1.answer.value += '0' ">
+        <input type="button" value="." onclick="form1.answer.value += '.' ">
+        <!-- When we click on the '=' button, the onclick() shows the sum results on the calculator screen. -->
+        <input type="button" value="=" onclick="form1.answer.value = eval(form1.answer.value) ">
+        <br>
+        <!-- Display the Cancel button and erase all data entered by the user. -->
+        <input type="button" value="Clear All" onclick="form1.answer.value = ' ' " id="clear">
+        
+            <br>
+           
+           
+          
+    
+            
+        </form>
+        </div>
+        <pre>
+          <a href="https://website--5676715323408814161243-financialconsultant.business.site/"><button>APPOINTMENT FOR FINANCIAL ADVICE</button></a>  <a href="http://advisor.turtlemint.com/profile/54147/PRABAL_DUTTA"><button>APPOINTMENT FOR INSURANCE</button></a>
+
+          <a href="licalc.html"><button>Life Insurance calculator</button></a>   <a href="sipcalc.html"><button>Mutual Fund Calculator</button></a>   <a href="loancalc.html" ><button>CALCULATE YOUR LOAN EMI</button></a><br>           <a href= "https://www.reliancegeneral.co.in/insurance/health-insurance/Renewal-Online-Premium-Calculation.aspx"><button><img src="71026-reliance-22-11-16.webp" width="85px" alt="Utilities"></button></a>  <a href="https://advisor.turtlemint.com/mahi-ad/54147/2985620"><button><b><img src="unnamed.png" width="50px" alt="Utilities1"></b></button></a>     <a href="https://web.whatsapp.com/"><button><b><img src="R.png" width="50px" alt="Utilities1"></b></button></a>
+      
+      
+      
+        </pre>
+      <script>
+        let time = document.getElementById("current-time");
+        setInterval(() =>{
+        let d = new Date();
+        time.innerHTML = d.toLocaleTimeString();
+        },1000)
+
+        
+
+
+
+      </script>
+</body>
+
+
+</html>
