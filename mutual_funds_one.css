@@ -1,0 +1,49 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.content-container
+{
+padding: 30px;
+position: relative;
+}
+.content-container:before
+{
+content: '';
+position: fixed;
+top: 0;
+left: 0;
+background-image: url(OIP.jpeg);
+background-size: auto;
+background-repeat: no-repeat;
+background-position: center;
+width: 100%;
+height: 100%;
+opacity: .2;
+}
+.content-container .contents
+{
+    position: relative;
+    z-index: 5
+}
+h1,h2
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(6, 15, 100);
+}
+p
+{
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 22px;
+    text-align: justify;
+}
+.p-color{
+    color: red;
+}
+.p-col{
+    color: tomato;
+}
