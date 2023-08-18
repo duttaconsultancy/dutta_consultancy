@@ -12,7 +12,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 position: center;
-    flex-wrap: wrap;
+/*     flex-wrap: wrap; */
 }
 .container h1{
     position: absolute;
