@@ -32,15 +32,7 @@
     <img src="Mf1.jpeg" width="250" alt="Mf1"><img src="reliance-health-insurance-logo.png" width="250" alt="RHI"><br><img src="fin1.jpg" width="500" alt="FINANCIAL"><br>
 <div class="container">
 <img src="wp2446261.webp" width="700px">
-<h1 id="current-time">
-    <script>
-        let time = document.getElementById("current-time");
-        setInterval(() =>{
-        let d = new Date();
-        time.innerHTML = d.toLocaleTimeString();
-        },1000)
-        </script>
-</h1>
+<h1 id="current-time"></h1>
 <div class="quotes">
     <p>Today's Quotes</p>
     <h2>Lost time is never found again.</h2>
@@ -95,6 +87,13 @@
      
       
         </pre>
+    <script>
+        let time = document.getElementById("current-time");
+        setInterval(() =>{
+        let d = new Date();
+        time.innerHTML = d.toLocaleTimeString();
+        },1000)
+        </script>
       
 </body>
 
