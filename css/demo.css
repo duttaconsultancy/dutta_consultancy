@@ -14,7 +14,7 @@ background: -webkit-linear-gradient(to right, #85D8CE, #085078);  /* Chrome 10-2
 background: linear-gradient(to right, #85D8CE, #085078); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .intro{
-   background: #fff;
+/*    background: #fff; */
    padding: 60px 30px;
    color: #333;
    margin-bottom: 15px;
